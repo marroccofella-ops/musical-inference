@@ -16,4 +16,4 @@ Output defaults to `runs/` in the current directory. Keep it private: telemetry 
 
 PDH engine utilization drives pitch and timbre. It measures engine activity, not model tokens/second, computational correctness, GPU residency, TFLOP/s or TOPS. Memory, power and temperature remain unavailable in this collector. An audio callback completing does not prove the user heard it. Non-Windows live capture is unsupported; demo rendering is portable.
 
-For Windows overhead and NPU helper comparisons, read [the campaign protocol](../docs/windows-overhead.md). NPU GEMM success does not establish graph compatibility, operator placement or full-memory access.
+For Windows overhead and NPU helper comparisons, read [the campaign protocol](references/windows-overhead.md). NPU GEMM success does not establish graph compatibility, operator placement or full-memory access.
