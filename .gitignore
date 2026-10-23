@@ -1,0 +1,22 @@
+__pycache__/
+.venv/
+runs/
+*.wav
+*.etl
+*.pml
+.env
+
+# added by myrepo
+node_modules/
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.npmrc
+.netrc
+id_rsa
+id_ed25519
+.DS_Store
+Thumbs.db
+*.log
